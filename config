@@ -38,7 +38,7 @@ MKMOD="bin etc home lib lib64 opt root sbin srv usr var"
 NETWORK=false
 
 # Temporary directory to store livekit filesystem
-LIVEKITDATA=/tmp/$LIVEKITNAME-data-$$
+LIVEKITDATA=/linux-live/$LIVEKITNAME-data-$$
 
 # Bundle extension, for example 'sb' for .sb extension
 BEXT=sb

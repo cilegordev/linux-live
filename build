@@ -81,7 +81,7 @@ fi
 
 cd "$LIVEKITDATA"
 ARCH=$(uname -m)
-TARGET=/tmp/linux-live
+TARGET=/linux-live
 
 cat "$CWD/bootinfo.txt" | fgrep -v "#" | sed -r "s/mylinux/$LIVEKITNAME/" | sed -r "s/\$/\x0D/" > readme.txt
 
